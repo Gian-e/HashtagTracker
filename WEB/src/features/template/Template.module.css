@@ -1,0 +1,17 @@
+.template {
+    min-height: 144vh;
+    background-color: var(--darkGray);
+}
+
+.template::before {
+    background-image: url("https://www.svgrepo.com/show/11841/twitter.svg");
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    content: " ";
+    display: block;
+    position: absolute;
+    left: 10rem;
+    top: 10rem;
+    width: 120vh;
+    height: 120vh;
+}

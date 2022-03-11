@@ -1,0 +1,47 @@
+:root {
+    --darkBlue: #0784b5;
+    --lightBlue: #39ace7;
+    --darkGray: #192428;
+    --lightGray: #414c50;
+    --gray: #2d383c;
+    color: white;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.navbar {
+    color: white;
+    background-color: var(--gray) !important;
+}
+
+.nav-link,
+.navbar-brand {
+    color: white !important;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: white;
+}
+
+.card,
+.list-group,
+.list-group-item {
+    background-color: var(--lightGray) !important;
+    color: white !important;
+}
+
+.card {
+    width: 25rem !important;
+}

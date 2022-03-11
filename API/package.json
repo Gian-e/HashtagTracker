@@ -1,0 +1,38 @@
+{
+    "name": "hashtagtracker",
+    "version": "1.0.0",
+    "description": "API para monitoramento de hashtags",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Gian-e/HashtagTracker.git"
+    },
+    "keywords": [
+        "twitter",
+        "hashtag",
+        "dashboard"
+    ],
+    "author": "Giancarlo Ericeira",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Gian-e/HashtagTracker/issues"
+    },
+    "homepage": "https://github.com/Gian-e/HashtagTracker#readme",
+    "dependencies": {
+        "axios": "^0.26.0",
+        "body-parser": "^1.19.2",
+        "cors": "^2.8.5",
+        "express": "^4.17.3",
+        "node-json-db": "^1.4.1",
+        "socket.io": "^4.4.1",
+        "twitter-api-v2": "^1.11.0"
+    },
+    "nodemonConfig": {
+        "ignore": ["public/database.json", "database.json"]
+    }
+
+}
