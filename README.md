@@ -6,9 +6,9 @@ O sistema consiste em uma tela de controle responsável por buscar os tweets com
 ## Instalação:
 1. Modificar o arquivo `API/twitterApiKeys.json` preenchendo o valor **BearerToken** com o seu token obtido através de sua conta do [portal do desenvolvedor no twitter](https://developer.twitter.com/en/docs/twitter-api)
 
-2. Para rodar o projeto localmente em uma máquina windows, basta abrir o arquivo `Start.bat` localizado na raiz do repositório
+2. Para rodar o projeto localmente em uma máquina windows, basta abrir os arquivo `API/StartApi.bat` e `Web/StartWeb.bat`
 
-3. Caso não seja possível utilizar o arquivo `Start.bat`, abrir o terminal no diretório `/API` e executar o comando `npm start`. Repetir o processo no diretório `/WEB`
+3. Caso não seja possível utilizar os arquivos `.bat`, abrir o terminal no diretório `/API` e executar o comando `npm install && npm start`. Repetir o processo no diretório `/WEB`
 
 4. Após a execução, o sistema poderá por padrão ser acessado através do endereço http://localhost:3000
 
